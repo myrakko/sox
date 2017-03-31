@@ -1,6 +1,6 @@
 # sox scripts
 
-make wav file usable for ladspa
+### make wav file usable for ladspa
 
 stere -> 2 monos -> merge to stere
 
@@ -33,7 +33,7 @@ mon/r.1.wav
 sox -M mon/l.$se1 -M mon/r.$se1 str/$se1
 ```
 
-# check with sndfile-info
+### check with sndfile-info
 
 ```
 sndfile-info str/$se1
